@@ -1,0 +1,35 @@
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore workspace-related files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Ignore compiled output
+/out/
+build/
+target/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore Maven & Gradle-related files
+.mvn/
+.gradle/
+build/
+
+# Ignore dependency caches
+**/node_modules/
+**/.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
